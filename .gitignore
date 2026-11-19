@@ -1,0 +1,23 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+/token
+/token.txt
+hf_token.txt
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training outputs
+sft_results/
+logs/
+wandb/
+
+# OS metadata
+.DS_Store
+
